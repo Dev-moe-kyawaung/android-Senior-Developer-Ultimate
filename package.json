@@ -1,0 +1,38 @@
+{
+  "name": "moe-kyaw-aung-portfolio",
+  "version": "1.0.0",
+  "description": "Senior Android Developer Portfolio - Neon Cyber Theme",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "dev": "serve . -l 5500",
+    "build": "echo 'No build step required for static site'",
+    "preview": "serve build"
+  },
+  "keywords": [
+    "android",
+    "kotlin",
+    "developer",
+    "portfolio",
+    "neon-cyber-theme",
+    "3d-animation",
+    "three.js"
+  ],
+  "author": "Moe Kyaw Aung (မိုးကျော်အောင်)",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.128.0",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev-moe-kyawaung/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dev-moe-kyawaung/portfolio/issues"
+  },
+  "homepage": "https://Dev-moe-kyawaung.github.io/portfolio/"
+}
