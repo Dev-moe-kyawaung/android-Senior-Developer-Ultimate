@@ -1,0 +1,20 @@
+# Image Assets
+
+Place all images in this directory.
+
+## Required Images
+
+1. `profile.jpg` - Main profile photo
+   - URL: https://res.cloudinary.com/dye5qpwii/image/upload/v1778527878/IMG_20260430_053105_uef0yr.png
+
+2. `og-image.jpg` - Social share image
+   - URL: https://res.cloudinary.com/dye5qpwii/image/upload/v1778747388/image-1_1_khsx9s.png
+
+3. Project screenshots (optional but recommended)
+
+## Image Optimization
+
+- Use WebP format when possible
+- Compress images before upload
+- Keep file size under 200KB
+- Maintain aspect ratio
