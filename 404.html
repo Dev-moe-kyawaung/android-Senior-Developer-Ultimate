@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Moe Kyaw Aung</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cyber-theme.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0a0f;
+            color: #e0e0ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        
+        .error-page {
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            padding: 20px;
+        }
+        
+        .error-code {
+            font-family: 'Orbitron', sans-serif;
+            font-size: clamp(4rem, 15vw, 10rem);
+            font-weight: 900;
+            background: linear-gradient(135deg, #00f5ff, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            text-shadow: 0 0 40px rgba(0, 245, 255, 0.3);
+            animation: glowPulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes glowPulse {
+            0%, 100% {
+                filter: drop-shadow(0 0 5px rgba(0, 245, 255, 0.3));
+            }
+            50% {
+                filter: drop-shadow(0 0 20px rgba(0, 245, 255, 0.6));
+            }
+        }
+        
+        .error-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: clamp(1rem, 3vw, 2rem);
+            margin: 20px 0;
+            color: #ff00ff;
+        }
+        
+        .error-text {
+            color: #a0a0c0;
+            max-width: 400px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+            font-size: 0.9rem;
+        }
+        
+        .error-text-eng {
+            color: #80809a;
+            font-size: 0.85rem;
+            margin-bottom: 40px;
+        }
+        
+        .home-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 40px;
+            background: transparent;
+            color: #00f5ff;
+            border: 2px solid #00f5ff;
+            border-radius: 8px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-decoration: none;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        
+        .home-btn:hover {
+            background: #00f5ff;
+            color: #0a0a0f;
+            box-shadow: 0 0 30px rgba(0, 245, 255, 0.4);
+            transform: translateY(-3px);
+        }
+        
+        .error-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 0;
+        }
+        
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .orb-1 {
+            width: 200px;
+            height: 200px;
+            background: rgba(0, 245, 255, 0.15);
+            top: -50px;
+            left: -50px;
+        }
+        
+        .orb-2 {
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 0, 255, 0.1);
+            bottom: -100px;
+            right: -100px;
+            animation-delay: 2s;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(20px, 20px) scale(0.95); }
+            50% { transform: translate(-20px, 0) scale(1.1); }
+            75% { transform: translate(0, -20px) scale(1.05); }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+    
+    <div class="error-page">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-text">သင်ရှာဖွေနေသော စာမျက်နှာကို ရှာမတွေ့ပါ။ / The page you are looking for does not exist.</p>
+        <p class="error-text-eng">The link may be broken or the page may have been moved. Let's get you back home!</p>
+        <a href="index.html" class="home-btn">
+            <span>🏠</span> Go Back Home
+        </a>
+    </div>
+</body>
+</html>
