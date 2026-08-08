@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pulsesync",
+    "name": "PulseSync Android",
+    "category": "Android",
+    "description": "Real-time sync platform with multi-module architecture",
+    "tech": ["Kotlin", "Jetpack Compose", "Firebase", "MVVM"],
+    "github": "https://github.com/Dev-moe-kyawaung",
+    "image": "https://res.cloudinary.com/dye5qpwii/image/upload/v1778795829/copilot_image_1778795000722_okryxj.png",
+    "featured": true
+  },
+  {
+    "id": "pos-ultimate",
+    "name": "POS Ultimate Pro Max",
+    "category": "POS",
+    "description": "Enterprise-grade POS system with advanced features",
+    "tech": ["Kotlin", "Room DB", "Coroutines"],
+    "github": "https://github.com/moekyawaung-tech/POS-Ultimate-Pro-Max",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "social-dashboard",
+    "name": "Social Dashboard",
+    "category": "Social",
+    "description": "Multi-platform social media management",
+    "tech": ["Flutter", "REST API", "Firebase"],
+    "github": "https://github.com/moekyawaung-tech/social-dashboard",
+    "image": "",
+    "featured": false
+  }
+]
