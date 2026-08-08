@@ -1,0 +1,15 @@
+# GitLab Pages deployment
+pages:
+  stage: deploy
+  script:
+    - echo "Deploying portfolio..."
+    - mkdir .public
+    - cp -r * .public/
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+    - master
+    - main-final
