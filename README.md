@@ -124,6 +124,7 @@ cd portfolio
 # Using VS Code Live Server
 code .
 # Right-click index.html → Open with Live Server
+#
 
 # Or using Python
 python -m http.server 8000
@@ -135,4 +136,75 @@ npx serve .
 ### Open in browser
 ```
 http://localhost:8000
+```
+
+
+### Add New Sections
+1. Copy existing section `HTML` structure
+2. Add new section between `<section>` tags
+3. Add corresponding styles in CSS
+
+## 📱 Responsive Design
+
+| Screen Size | Layout |
+|------------|--------|
+| < 480px | Single column |
+| 480-768px | Single + sidebar |
+| 768-1024px | Two columns |
+| > 1024px | Full grid |
+
+## ⚡ Performance Optimizations
+
+- Lazy loading for images
+- Debounced scroll events
+- requestAnimationFrame for animations
+- Optimized SVG icons
+- CSS transform/transition for GPU acceleration
+- Minified production CSS/JS
+
+## ✅ Browser Compatibility
+
+| Browser | Support |
+|---------|---------|
+| Chrome | ✅ Full |
+| Firefox | ✅ Full |
+| Safari | ✅ Full |
+| Edge | ✅ Full |
+| Opera | ✅ Full |
+| Mobile Safari | ✅ Full |
+| Android Chrome | ✅ Full |
+
+## 🤝 Contributing
+
+1. Fork repository
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Open Pull Request
+
+## 📝 License
+
+MIT License - see [LICENSE](LICENSE) file for details
+
+## 👨💻 Author
+
+**Moe Kyaw Aung** (မိုးကျော်အောင်)
+- GitHub: [@Dev-moe-kyawaung](https://github.com/Dev-moe-kyawaung)
+- LinkedIn: [Moe Kyaw Aung](https://www.linkedin.com/in/moe-kyaw-aung-2653093a1)
+- Gravatar: [moekyawaung2026](https://gravatar.com/moekyawaung2026)
+- Email: [moekyawaung@programmer.net](mailto:moekyawaung@programmer.net)
+- Phone: +95 9 889 000 889
+
+## 🙏 Acknowledgments
+
+- **Programming Hub** - Certificates
+- **Three.js** - 3D library
+- **particles.js** - Particle library
+- **Google Fonts** - Typography
+
+---
+
+Copyright © 2026 [Moe Kyaw Aung](https://github.com/Dev-moe-kyawaung). All Rights Reserved.
+
+Made with ❤️ by Moe Kyaw Aung
 ```
